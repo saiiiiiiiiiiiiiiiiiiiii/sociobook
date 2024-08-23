@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0eb0395f3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navleft">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="navright">
+            <div class="searchbox">
+                <img src="images/search.png" >
+                <input type="text" placeholder="search">
+            </div>
+            <div class="navusericon online" onclick="settingsmenutoggle()">
+                <img src="images/profile-pic.png" >
+            </div>
+        </div>
+        <!-- settings menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>sainath more</p>
+                       <a href="#">see your profile </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Give feedback</p>
+                       <a href="#">Help us to improve the new design </a>
+                    </div>
+                </div>
+                <hr>
+
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settigs-icon">
+                    <a href="#">settings and privacy <img src="images/arrow.png" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settigs-icon">
+                    <a href="#">help and support <img src="images/arrow.png" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settigs-icon">
+                    <a href="#">display and accesibility <img src="images/arrow.png" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settigs-icon">
+                    <a href="#">logout <img src="images/arrow.png" ></a>
+                </div>
+            </div>
+            </div>
+            
+       
+    </nav>
+
+
+    <div class="container">
+    <div class="left-sidebar">
+    <!-- left sidebarr  -->
+        <div class="implinks">
+              <a href="#"><img src="images/news.png" >Latest News</a>
+              <a href="#"><img src="images/friends.png" >Friends</a>
+              <a href="#"><img src="images/group.png" >group News</a>
+              <a href="#"><img src="images/marketplace.png" >marketplace News</a>
+              <a href="#"><img src="images/watch.png" > watch</a>
+              <a href="#">see more</a>
+        </div>
+          <div class="shortcut-links">
+            <p>Your shortcuts </p>
+            <a href="#"><img src="images/shortcut-1.png" >Web Developers</a>
+            <a href="#"><img src="images/shortcut-2.png" >Web Design course</a>
+            <a href="#"><img src="images/shortcut-3.png" >Full stack Development</a>
+            <a href="#"><img src="images/shortcut-4.png" >Website Expert</a>
+          </div>
+    </div>
+    
+        <div class="main-content">
+            
+            <div class="story-gallary">
+                <div class="story story1">
+                    <img src="images/upload.png" >
+                    <p>Post story</p>
+                </div>
+                <div class=" story story2">
+                    <img src="images/member-1.png" >
+                    <p>mitali salunkhe </p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" >
+                    <p>sujal shinde</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" >
+                    <p>sanskruti Bhoslae</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" >
+                    <p>Dinesh patil</p>
+                </div>
+            </div>
+            <div class="write-post_container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>sainath more</p>
+                        <small>Public  <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="whats on your mind sainath"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" >  live vedio</a>
+                        <a href="#"><img src="images/photo.png" >Photo</a>
+                        <a href="#"><img src="images/feeling.png" >feeling vedio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p> Sainath more</p>
+                            <span> april 24,2023,12:11 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">follow me on linkedin<span> @sainath MORE more</span> <a href="#">sai more</a> <a href="#">instagram </a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="images/like-blue.png" >120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-1.png" >
+                        <div>
+                            <p> shrddha More</p>
+                            <span> september25 2005,14:11 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">follow me on instagram<span> @more.sai.90663</span> <a href="#">sai more</a> <a href="#">instagram </a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="images/like-blue.png" >120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-1.png" ><i class="fa-solid fa-caret-down"></i>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-4.png" >
+                        <div>
+                            <p> mitali salunkhe</p>
+                            <span> january 24,2023,15:15 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">follow me on instagram<span> @mitali salunkhe</span> <a href="#">Mitali salunkhe</a> <a href="#">instagram </a></p>
+                <img src="images/member-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="images/like-blue.png" >120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-3.png" ><i class="fa-solid fa-caret-down"></i>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png" >
+                        <div>
+                            <p> mitali salunkhe</p>
+                            <span> january 24,2023,15:15 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">follow me on instagram<span> @mitali salunkhe</span> <a href="#">Mitali salunkhe</a> <a href="#">instagram </a></p>
+                <img src="images/member-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="images/like-blue.png" >120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-3.png" ><i class="fa-solid fa-caret-down"></i>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-4.png" >
+                        <div>
+                            <p> mitali salunkhe</p>
+                            <span> january 24,2023,15:15 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">follow me on instagram<span> @mitali salunkhe</span> <a href="#">Mitali salunkhe</a> <a href="#">instagram </a></p>
+                <img src="images/member-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="images/like-blue.png" >120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-3.png" ><i class="fa-solid fa-caret-down"></i>
+                       
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">load more</button>
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>
+                    EVENTS
+                </h4>
+                <a href="#">see all</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>willson techpark</p>
+                    <a href="#">More Info</a>
+                </div>
+
+
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>02</h3>
+                
+                    <span>july</span>
+                </div>
+                <div class="right-event">
+                    <h4>virtual Reality</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>willson techpark</p>
+                    <a href="#">More Info</a>
+                </div>
+
+
+            </div> 
+            <div class="sidebar-title">
+                <h4>
+                    ADVERTISMENTS.
+                </h4>
+                <a href="#">CLOSE</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-add" >
+            <div class="sidebar-title">
+                <h4>
+                    Conversations.
+                </h4>
+                <a href="#">Chats</a>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-1.png" >
+                </div>
+                <p>Sanskruti Bhoslae</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-2.png" >
+                </div>
+                <p>Dinesh patil</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-3.png" >
+                </div>
+                <p>Shrddha Yadav</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>copy right 2021 with the sai more</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
